@@ -1,0 +1,76 @@
+﻿@page "/todo"
+
+<div>
+    <h1 class="todo-header">Todo</h1>
+    <button class="add-todo" @onclick="AddTodo"></button>
+</div>
+
+
+@* <input placeholder="Todo" @bind="newTodo"/> *@
+
+
+@* TODAY - Items that can be completed today are calculated by subtracting 
+the duration from the due date to get the start date. If the current
+date is larger than the start date then the task should be counted. 
+
+OVERDUE - If the current date is larger than the due date of the task. 
+*@
+<p>Today: | Incomplete: @todolist.Count(todo => !todo.IsDone) | Overdue: </p>
+
+
+@foreach (var todo in todolist)
+{
+    <div class="todo-tile">
+        <input type="checkbox" class="checkbox-format" @bind="todo.IsDone" />   
+        <span class="title-text">
+            @todo.Title 
+            <div class="priority-format">@todo.Priority</div>
+        </span>
+        <span class="due-text">@todo.CreationDate.AddMinutes(@todo.Duration).ToString()</span>
+    </div>
+}
+
+@code {
+    private List<TodoItem> todolist = new(); 
+    @* private TodoItem? newTodo; *@
+    private string? newTodo; 
+
+    private void AddTodo()
+    {
+        todolist.Add(new TodoItem 
+        { 
+            Title = "Test1", 
+            Priority = 5, 
+            Duration = 1440, 
+        });
+    } 
+
+    @* private string GetColor(TodoItem item) 
+    {
+        int? x = item.Priority;
+        int r; 
+        int g; 
+        if (x > 5) {
+            r = (int) ((x - 5) * 25.5) - 255;
+            g = 255; 
+        } else if (x < 5) {
+            g = (int) ((x * 25.5) - 255); 
+            r = 255;
+        } else {
+            g = 255; 
+            r = 255; 
+        }
+        string colorstr = $"rgb( {r}, {g}, 0)";
+        return colorstr;
+    } *@
+   
+    @* private void AddTodo()
+    {
+        if (!string.IsNullOrWhiteSpace(newTodo))
+        {
+            todolist.Add(new TodoItem { Title = newTodo, Priority = 10, }); 
+            newTodo = string.Empty;
+        }
+    }  *@
+   
+}

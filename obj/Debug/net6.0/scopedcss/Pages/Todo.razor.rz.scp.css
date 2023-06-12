@@ -1,0 +1,97 @@
+.todo-header[b-2oibn71kbc] {
+    display: inline-block; 
+}
+
+.add-todo[b-2oibn71kbc] {
+    appearance: none;
+    float: right;
+    border: none; 
+    border-radius: 50%;
+    width: 40px; 
+    height: 40px;
+    background-color: rgb(0, 218, 0);
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2), 0 2px 8px 0 rgba(0,0,0,0.19);
+}
+
+.add-todo:hover[b-2oibn71kbc] {
+    background-color: rgb(0, 160, 0);
+    
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 2px 4px 0 rgba(0,0,0,0.19);
+}
+
+.add-todo[b-2oibn71kbc]:after {
+    position: relative;
+    content: '\002B';
+    font-size: 34px; 
+    top: -6px; 
+    color: rgb(255, 255, 255); 
+}
+
+.checkbox-format[b-2oibn71kbc] {
+    appearance: none;
+    position: relative;
+
+    margin-right: 6px; 
+    margin-left: 6px;
+    width: 18px;
+    height: auto;
+    margin: 0 auto; 
+    grid-area: checkbox;
+}
+
+.checkbox-format[b-2oibn71kbc]:after {
+    position: absolute;
+    content: '\2716'; 
+    top: 12px; 
+    left: 0px; 
+    font-size: 24px;
+    color: rgb(241, 0, 0); 
+}
+
+.checkbox-format:active .regular-checkbox:checked:active[b-2oibn71kbc] {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.checkbox-format:checked[b-2oibn71kbc]:after {
+	content: '\2714';
+	font-size: 24px;
+	position: absolute;
+	color: #08ec00;
+}
+
+.todo-tile[b-2oibn71kbc] {
+    display: grid; 
+    grid-template-rows: 3fr 2fr;
+    grid-template-columns: 24px 1fr;
+    grid-template-areas: 'checkbox head' 'checkbox date'; 
+    gap: 4px;
+    column-gap: 12px;
+
+    border-radius: 12px;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 6px;
+    padding: 6px;
+}
+
+.title-text[b-2oibn71kbc] {
+    font-size: 1.5em;
+    font-weight: bold; 
+}
+
+.due-text[b-2oibn71kbc] {
+    font-size: 14px;
+}
+
+/* Priority */
+.priority-format[b-2oibn71kbc] {
+    display: inline-block; 
+    width: 1.1em; 
+    height: 1.1em; 
+    line-height: 1.1em; 
+    border-radius: 50%;
+    background-color:rgb(255, 0, 0); 
+    color: rgb(255, 255, 255);
+    font-weight: bold; 
+    text-align: center;
+}
