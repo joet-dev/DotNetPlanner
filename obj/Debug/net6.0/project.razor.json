@@ -50,43 +50,6 @@
         }
       },
       {
-        "HashCode": -307088214,
-        "Kind": "Components.Component",
-        "Name": "DotNetPlanner.Pages.Index",
-        "AssemblyName": "DotNetPlanner",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "DotNetPlanner.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "DotNetPlanner.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 111527761,
-        "Kind": "Components.Component",
-        "Name": "DotNetPlanner.Pages.Index",
-        "AssemblyName": "DotNetPlanner",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DotNetPlanner.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "DotNetPlanner.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "DotNetPlanner.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 2039756972,
         "Kind": "Components.Component",
         "Name": "DotNetPlanner.Pages.FetchData",
@@ -161,38 +124,38 @@
         }
       },
       {
-        "HashCode": 501544768,
+        "HashCode": -307088214,
         "Kind": "Components.Component",
-        "Name": "DotNetPlanner.App",
+        "Name": "DotNetPlanner.Pages.Index",
         "AssemblyName": "DotNetPlanner",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "DotNetPlanner.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "DotNetPlanner",
+          "Common.TypeName": "DotNetPlanner.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "DotNetPlanner.Pages",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 889239594,
+        "HashCode": 111527761,
         "Kind": "Components.Component",
-        "Name": "DotNetPlanner.App",
+        "Name": "DotNetPlanner.Pages.Index",
         "AssemblyName": "DotNetPlanner",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "DotNetPlanner.App"
+            "TagName": "DotNetPlanner.Pages.Index"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "DotNetPlanner.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "DotNetPlanner",
+          "Common.TypeName": "DotNetPlanner.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "DotNetPlanner.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -251,6 +214,43 @@
         "Metadata": {
           "Common.TypeName": "DotNetPlanner.Shared.SurveyPrompt",
           "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeNamespace": "DotNetPlanner.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 500051600,
+        "Kind": "Components.Component",
+        "Name": "DotNetPlanner.Shared.NavMenu",
+        "AssemblyName": "DotNetPlanner",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "DotNetPlanner.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeNamespace": "DotNetPlanner.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1564636737,
+        "Kind": "Components.Component",
+        "Name": "DotNetPlanner.Shared.NavMenu",
+        "AssemblyName": "DotNetPlanner",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DotNetPlanner.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "DotNetPlanner.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "DotNetPlanner.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -363,38 +363,38 @@
         }
       },
       {
-        "HashCode": 500051600,
+        "HashCode": 501544768,
         "Kind": "Components.Component",
-        "Name": "DotNetPlanner.Shared.NavMenu",
+        "Name": "DotNetPlanner.App",
         "AssemblyName": "DotNetPlanner",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "DotNetPlanner.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "DotNetPlanner.Shared",
+          "Common.TypeName": "DotNetPlanner.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "DotNetPlanner",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -1564636737,
+        "HashCode": 889239594,
         "Kind": "Components.Component",
-        "Name": "DotNetPlanner.Shared.NavMenu",
+        "Name": "DotNetPlanner.App",
         "AssemblyName": "DotNetPlanner",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "DotNetPlanner.Shared.NavMenu"
+            "TagName": "DotNetPlanner.App"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "DotNetPlanner.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "DotNetPlanner.Shared",
+          "Common.TypeName": "DotNetPlanner.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "DotNetPlanner",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }

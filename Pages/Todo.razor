@@ -1,10 +1,12 @@
 ﻿@page "/todo"
 
-<div>
-    <h1 class="todo-header">Todo</h1>
-    <button class="add-todo" @onclick="AddTodo"></button>
+<div class="todo-header">
+    <div class="todo-container">
+        <h1 class="todo-header-title">Todo</h1>
+        <button class="add-todo" @onclick="AddTodo"></button>
+    </div>
+    <p class="todo-header-text">Today: | Incomplete: @todolist.Count(todo => !todo.IsDone) | Overdue: </p>
 </div>
-
 
 @* <input placeholder="Todo" @bind="newTodo"/> *@
 
@@ -15,19 +17,21 @@ date is larger than the start date then the task should be counted.
 
 OVERDUE - If the current date is larger than the due date of the task. 
 *@
-<p>Today: | Incomplete: @todolist.Count(todo => !todo.IsDone) | Overdue: </p>
+
 
 
 @foreach (var todo in todolist)
 {
-    <div class="todo-tile">
-        <input type="checkbox" class="checkbox-format" @bind="todo.IsDone" />   
-        <span class="title-text">
-            @todo.Title 
-            <div class="priority-format">@todo.Priority</div>
-        </span>
-        <span class="due-text">@todo.CreationDate.AddMinutes(@todo.Duration).ToString()</span>
-    </div>
+    @if (!todo.IsDone) {
+        <div class="todo-tile">
+            <input type="checkbox" class="checkbox-format" @bind="todo.IsDone" />   
+            <span class="title-text">
+                @todo.Title 
+                <div class="priority-format">@todo.Priority</div>
+            </span>
+            <span class="due-text">@todo.CreationDate.AddMinutes(@todo.Duration).ToString()</span>
+        </div>
+    }
 }
 
 @code {
