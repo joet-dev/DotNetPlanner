@@ -31,3 +31,14 @@ E:\Programming\DotNetPlanner\obj\Debug\net6.0\DotNetPlanner.pdb
 E:\Programming\DotNetPlanner\obj\Debug\net6.0\DotNetPlanner.genruntimeconfig.cache
 E:\Programming\DotNetPlanner\obj\Debug\net6.0\ref\DotNetPlanner.dll
 E:\Programming\DotNetPlanner\obj\Debug\net6.0\scopedcss\Pages\Todo.razor.rz.scp.css
+E:\Programming\DotNetPlanner\bin\Debug\net6.0\Blazored.Modal.dll
+E:\Programming\DotNetPlanner\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+E:\Programming\DotNetPlanner\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+E:\Programming\DotNetPlanner\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+E:\Programming\DotNetPlanner\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+E:\Programming\DotNetPlanner\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+E:\Programming\DotNetPlanner\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Programming\DotNetPlanner\bin\Debug\net6.0\Microsoft.JSInterop.dll
+E:\Programming\DotNetPlanner\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+E:\Programming\DotNetPlanner\bin\Debug\net6.0\System.IO.Pipelines.dll
+E:\Programming\DotNetPlanner\obj\Debug\net6.0\DotNetPlanner.csproj.CopyComplete

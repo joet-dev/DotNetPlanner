@@ -1,3 +1,5 @@
+@import '_content/Blazored.Modal/Blazored.Modal.bundle.scp.css';
+
 /* _content/DotNetPlanner/Pages/Todo.razor.rz.scp.css */
 .todo-header[b-2oibn71kbc] {
     border-bottom: 2px solid rgb(0, 0, 0);  

@@ -87,43 +87,6 @@
         }
       },
       {
-        "HashCode": 1977478102,
-        "Kind": "Components.Component",
-        "Name": "DotNetPlanner.Pages.Todo",
-        "AssemblyName": "DotNetPlanner",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Todo"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "DotNetPlanner.Pages.Todo",
-          "Common.TypeNameIdentifier": "Todo",
-          "Common.TypeNamespace": "DotNetPlanner.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1754762982,
-        "Kind": "Components.Component",
-        "Name": "DotNetPlanner.Pages.Todo",
-        "AssemblyName": "DotNetPlanner",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DotNetPlanner.Pages.Todo"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "DotNetPlanner.Pages.Todo",
-          "Common.TypeNameIdentifier": "Todo",
-          "Common.TypeNamespace": "DotNetPlanner.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -307088214,
         "Kind": "Components.Component",
         "Name": "DotNetPlanner.Pages.Index",
@@ -155,6 +118,43 @@
         "Metadata": {
           "Common.TypeName": "DotNetPlanner.Pages.Index",
           "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "DotNetPlanner.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1977478102,
+        "Kind": "Components.Component",
+        "Name": "DotNetPlanner.Pages.Todo",
+        "AssemblyName": "DotNetPlanner",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Todo"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "DotNetPlanner.Pages.Todo",
+          "Common.TypeNameIdentifier": "Todo",
+          "Common.TypeNamespace": "DotNetPlanner.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1754762982,
+        "Kind": "Components.Component",
+        "Name": "DotNetPlanner.Pages.Todo",
+        "AssemblyName": "DotNetPlanner",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DotNetPlanner.Pages.Todo"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "DotNetPlanner.Pages.Todo",
+          "Common.TypeNameIdentifier": "Todo",
           "Common.TypeNamespace": "DotNetPlanner.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -5360,6 +5360,916 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -561230618,
+        "Kind": "Components.Component",
+        "Name": "Blazored.Modal.BlazoredModalInstance",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazoredModalInstance"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Content",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "IsEditorRequired": true,
+            "Metadata": {
+              "Common.PropertyName": "Content",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Options",
+            "TypeName": "Blazored.Modal.ModalOptions",
+            "IsEditorRequired": true,
+            "Metadata": {
+              "Common.PropertyName": "Options",
+              "Common.GloballyQualifiedTypeName": "global::Blazored.Modal.ModalOptions"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Guid",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.Guid"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal.BlazoredModalInstance",
+          "Common.TypeNameIdentifier": "BlazoredModalInstance",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1700382998,
+        "Kind": "Components.Component",
+        "Name": "Blazored.Modal.BlazoredModalInstance",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Blazored.Modal.BlazoredModalInstance"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Content",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "IsEditorRequired": true,
+            "Metadata": {
+              "Common.PropertyName": "Content",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Options",
+            "TypeName": "Blazored.Modal.ModalOptions",
+            "IsEditorRequired": true,
+            "Metadata": {
+              "Common.PropertyName": "Options",
+              "Common.GloballyQualifiedTypeName": "global::Blazored.Modal.ModalOptions"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Guid",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.Guid"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal.BlazoredModalInstance",
+          "Common.TypeNameIdentifier": "BlazoredModalInstance",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -337495375,
+        "Kind": "Components.ChildContent",
+        "Name": "Blazored.Modal.BlazoredModalInstance.Content",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Content",
+            "ParentTag": "BlazoredModalInstance"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal.BlazoredModalInstance.Content",
+          "Common.TypeNameIdentifier": "BlazoredModalInstance",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 717562581,
+        "Kind": "Components.ChildContent",
+        "Name": "Blazored.Modal.BlazoredModalInstance.Content",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Content",
+            "ParentTag": "Blazored.Modal.BlazoredModalInstance"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal.BlazoredModalInstance.Content",
+          "Common.TypeNameIdentifier": "BlazoredModalInstance",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -1313015437,
+        "Kind": "Components.Component",
+        "Name": "Blazored.Modal.BlazoredModal",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazoredModal"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "HideHeader",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "HideHeader",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "HideCloseButton",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "HideCloseButton",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DisableBackgroundCancel",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "DisableBackgroundCancel",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OverlayCustomClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "OverlayCustomClass",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Position",
+            "TypeName": "Blazored.Modal.ModalPosition?",
+            "Metadata": {
+              "Common.PropertyName": "Position",
+              "Common.GloballyQualifiedTypeName": "global::Blazored.Modal.ModalPosition?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "PositionCustomClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PositionCustomClass",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Size",
+            "TypeName": "Blazored.Modal.ModalSize?",
+            "Metadata": {
+              "Common.PropertyName": "Size",
+              "Common.GloballyQualifiedTypeName": "global::Blazored.Modal.ModalSize?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SizeCustomClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "SizeCustomClass",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Class",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Class",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AnimationType",
+            "TypeName": "Blazored.Modal.ModalAnimationType?",
+            "Metadata": {
+              "Common.PropertyName": "AnimationType",
+              "Common.GloballyQualifiedTypeName": "global::Blazored.Modal.ModalAnimationType?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "UseCustomLayout",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "UseCustomLayout",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ActivateFocusTrap",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "ActivateFocusTrap",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal.BlazoredModal",
+          "Common.TypeNameIdentifier": "BlazoredModal",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 448494348,
+        "Kind": "Components.Component",
+        "Name": "Blazored.Modal.BlazoredModal",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Blazored.Modal.BlazoredModal"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "HideHeader",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "HideHeader",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "HideCloseButton",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "HideCloseButton",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DisableBackgroundCancel",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "DisableBackgroundCancel",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OverlayCustomClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "OverlayCustomClass",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Position",
+            "TypeName": "Blazored.Modal.ModalPosition?",
+            "Metadata": {
+              "Common.PropertyName": "Position",
+              "Common.GloballyQualifiedTypeName": "global::Blazored.Modal.ModalPosition?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "PositionCustomClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PositionCustomClass",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Size",
+            "TypeName": "Blazored.Modal.ModalSize?",
+            "Metadata": {
+              "Common.PropertyName": "Size",
+              "Common.GloballyQualifiedTypeName": "global::Blazored.Modal.ModalSize?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SizeCustomClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "SizeCustomClass",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Class",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Class",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AnimationType",
+            "TypeName": "Blazored.Modal.ModalAnimationType?",
+            "Metadata": {
+              "Common.PropertyName": "AnimationType",
+              "Common.GloballyQualifiedTypeName": "global::Blazored.Modal.ModalAnimationType?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "UseCustomLayout",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "UseCustomLayout",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ActivateFocusTrap",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "ActivateFocusTrap",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal.BlazoredModal",
+          "Common.TypeNameIdentifier": "BlazoredModal",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1926600763,
+        "Kind": "Components.Component",
+        "Name": "Blazored.Modal.CascadingBlazoredModal",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CascadingBlazoredModal"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "HideHeader",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "HideHeader",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "HideCloseButton",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "HideCloseButton",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DisableBackgroundCancel",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "DisableBackgroundCancel",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Position",
+            "TypeName": "Blazored.Modal.ModalPosition?",
+            "Metadata": {
+              "Common.PropertyName": "Position",
+              "Common.GloballyQualifiedTypeName": "global::Blazored.Modal.ModalPosition?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Size",
+            "TypeName": "Blazored.Modal.ModalSize?",
+            "Metadata": {
+              "Common.PropertyName": "Size",
+              "Common.GloballyQualifiedTypeName": "global::Blazored.Modal.ModalSize?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Class",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Class",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AnimationType",
+            "TypeName": "Blazored.Modal.ModalAnimationType?",
+            "Metadata": {
+              "Common.PropertyName": "AnimationType",
+              "Common.GloballyQualifiedTypeName": "global::Blazored.Modal.ModalAnimationType?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "UseCustomLayout",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "UseCustomLayout",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OverlayCustomClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "OverlayCustomClass",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ContentScrollable",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "ContentScrollable",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ActivateFocusTrap",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "ActivateFocusTrap",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "PositionCustomClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PositionCustomClass",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SizeCustomClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "SizeCustomClass",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal.CascadingBlazoredModal",
+          "Common.TypeNameIdentifier": "CascadingBlazoredModal",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1402064135,
+        "Kind": "Components.Component",
+        "Name": "Blazored.Modal.CascadingBlazoredModal",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Blazored.Modal.CascadingBlazoredModal"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "HideHeader",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "HideHeader",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "HideCloseButton",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "HideCloseButton",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DisableBackgroundCancel",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "DisableBackgroundCancel",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Position",
+            "TypeName": "Blazored.Modal.ModalPosition?",
+            "Metadata": {
+              "Common.PropertyName": "Position",
+              "Common.GloballyQualifiedTypeName": "global::Blazored.Modal.ModalPosition?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Size",
+            "TypeName": "Blazored.Modal.ModalSize?",
+            "Metadata": {
+              "Common.PropertyName": "Size",
+              "Common.GloballyQualifiedTypeName": "global::Blazored.Modal.ModalSize?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Class",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Class",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AnimationType",
+            "TypeName": "Blazored.Modal.ModalAnimationType?",
+            "Metadata": {
+              "Common.PropertyName": "AnimationType",
+              "Common.GloballyQualifiedTypeName": "global::Blazored.Modal.ModalAnimationType?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "UseCustomLayout",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "UseCustomLayout",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OverlayCustomClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "OverlayCustomClass",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ContentScrollable",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "ContentScrollable",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ActivateFocusTrap",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "ActivateFocusTrap",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean?"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "PositionCustomClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PositionCustomClass",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SizeCustomClass",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "SizeCustomClass",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal.CascadingBlazoredModal",
+          "Common.TypeNameIdentifier": "CascadingBlazoredModal",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -2125420333,
+        "Kind": "Components.ChildContent",
+        "Name": "Blazored.Modal.CascadingBlazoredModal.ChildContent",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "CascadingBlazoredModal"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal.CascadingBlazoredModal.ChildContent",
+          "Common.TypeNameIdentifier": "CascadingBlazoredModal",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 1683754674,
+        "Kind": "Components.ChildContent",
+        "Name": "Blazored.Modal.CascadingBlazoredModal.ChildContent",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "Blazored.Modal.CascadingBlazoredModal"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal.CascadingBlazoredModal.ChildContent",
+          "Common.TypeNameIdentifier": "CascadingBlazoredModal",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 1322320388,
+        "Kind": "Components.Component",
+        "Name": "Blazored.Modal.FocusTrap",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FocusTrap"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsActive",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "IsActive",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal.FocusTrap",
+          "Common.TypeNameIdentifier": "FocusTrap",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 134965087,
+        "Kind": "Components.Component",
+        "Name": "Blazored.Modal.FocusTrap",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Blazored.Modal.FocusTrap"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsActive",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "IsActive",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal.FocusTrap",
+          "Common.TypeNameIdentifier": "FocusTrap",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 146402730,
+        "Kind": "Components.ChildContent",
+        "Name": "Blazored.Modal.FocusTrap.ChildContent",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "FocusTrap"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal.FocusTrap.ChildContent",
+          "Common.TypeNameIdentifier": "FocusTrap",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 375432283,
+        "Kind": "Components.ChildContent",
+        "Name": "Blazored.Modal.FocusTrap.ChildContent",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "Blazored.Modal.FocusTrap"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal.FocusTrap.ChildContent",
+          "Common.TypeNameIdentifier": "FocusTrap",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -1009585571,
+        "Kind": "Components.Component",
+        "Name": "Blazored.Modal._Imports",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "_Imports"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal._Imports",
+          "Common.TypeNameIdentifier": "_Imports",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 217161695,
+        "Kind": "Components.Component",
+        "Name": "Blazored.Modal._Imports",
+        "AssemblyName": "Blazored.Modal",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Blazored.Modal._Imports"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Blazored.Modal._Imports",
+          "Common.TypeNameIdentifier": "_Imports",
+          "Common.TypeNamespace": "Blazored.Modal",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
         }
       },
       {

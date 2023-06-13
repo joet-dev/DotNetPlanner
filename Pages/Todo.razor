@@ -1,9 +1,10 @@
 ﻿@page "/todo"
 
+@inject IModalService modal
 <div class="todo-header">
     <div class="todo-container">
         <h1 class="todo-header-title">Todo</h1>
-        <button class="add-todo" @onclick="AddTodo"></button>
+        <button class="add-todo" @onclick="@(()=>modal.Show<FetchData>("Example"))" ></button>
     </div>
     <p class="todo-header-text">Today: | Incomplete: @todolist.Count(todo => !todo.IsDone) | Overdue: </p>
 </div>
